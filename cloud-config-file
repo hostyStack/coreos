@@ -1,0 +1,12 @@
+#cloud-config
+
+  users:
+    - name: "zerodeth"
+      passwd: "$1$RK0WmVgQ$hOYhhppqWaJ2eXNHHTHNg0"
+      groups:
+        - sudo
+        - docker
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6RUZK/ui90hJZvaxnXj7ffP/NJoy4/3bEplHuGHGgrSRx6HPpBk46E21mttJBurnMP7Kafv4pMSN6HPwISt9SLOfim0RfFeTug8bJzlyO+Q9ZnZmArKyKGJENJNNGUK4oJjz7PoRY9z3ADdzORoivIaLfB8vjs6Lrfu/8Ilf55C+/H04cCovYITBH/70J3ixsJbA/+Xzg84SJ0J3sfwtP3P v8dhh1X4jKE+3qTeegwSAe6wA/liY+bljcLSJ3JPe6NjV5ggFb7EYqy4pR+BeMwyj1WY3vf9rlm3YwgLQk6f3jQmj2I9vcc0ItxOj/SkpcDzeL+63BhuK2uys/XyIh ZeroDeth@macOS.local
+
+  hostname: "coreos-00"
