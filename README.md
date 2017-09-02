@@ -1,0 +1,2 @@
+# coreos
+Collection of Solutions
